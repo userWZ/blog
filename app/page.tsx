@@ -4,7 +4,7 @@ import { getPhotoUrl, listPhotos } from "@/firebase/db/photo";
 export default async function App() {
   const photosPromise = listPhotos("photos");
   const avatarUrlPromise = getPhotoUrl("avatar/wzh.jpg"); 
-  const dogUrlPromise = getPhotoUrl("avatar/black.jpg");
+  const dogUrlPromise = getPhotoUrl("avatar/black.png");
   const actionImageUrlPromise = getPhotoUrl("projects/gher.jpg");
   const webagentUrlPromise = getPhotoUrl("projects/soft.jpg");
   const chatbotUrlPromise = getPhotoUrl("projects/usv.jpg");
