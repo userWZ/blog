@@ -2,24 +2,25 @@ import Home from "@/components/home";
 import { getPhotoUrl, listPhotos } from "@/firebase/db/photo";
 
 export default async function App() {
-  // const photosPromise = listPhotos("photos");
-  // const avatarUrlPromise = getPhotoUrl("avatar/eric.jpg");
-  // const dogUrlPromise = getPhotoUrl("avatar/dog.jpg");
-  // const actionImageUrlPromise = getPhotoUrl("projects/actions.jpg");
-  // const webagentUrlPromise = getPhotoUrl("projects/webagent.jpg");
-  // const chatbotUrlPromise = getPhotoUrl("projects/chatbot.jpg");
+  const photosPromise = listPhotos("photos");
+  const avatarUrlPromise = getPhotoUrl("avatar/wzh.jpg"); 
+  const dogUrlPromise = getPhotoUrl("avatar/black.jpg");
+  const actionImageUrlPromise = getPhotoUrl("projects/gher.jpg");
+  const webagentUrlPromise = getPhotoUrl("projects/soft.jpg");
+  const chatbotUrlPromise = getPhotoUrl("projects/usv.jpg");
   // const resumeUrlPromise = getPhotoUrl("Chengxiang-Wu-Resume-2024.pdf");
-  // const paperUrlPromise = getPhotoUrl("projects/paper.jpg");
+  const paperUrlPromise = getPhotoUrl("projects/paper.jpg");
+  const resumeUrlPromise = 'https://drive.google.com/file/d/1a83eyUResWSZiJG-k_1HnkJD9HSekgc7/view?usp=drive_link';
 
 
-  const photosPromise = ['https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Dark%20Skin%20Tone.png'];
-  const avatarUrlPromise = 'https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Dark%20Skin%20Tone.png';
-  const dogUrlPromise = 'https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Dark%20Skin%20Tone.png';
-  const actionImageUrlPromise = 'https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Dark%20Skin%20Tone.png';
-  const webagentUrlPromise = 'https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Dark%20Skin%20Tone.png';
-  const chatbotUrlPromise = 'https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Dark%20Skin%20Tone.png';
-  const resumeUrlPromise = 'https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Dark%20Skin%20Tone.png';
-  const paperUrlPromise = 'https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Dark%20Skin%20Tone.png';
+  // const photosPromise = ['https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Dark%20Skin%20Tone.png'];
+  // const avatarUrlPromise = 'https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Dark%20Skin%20Tone.png';
+  // const dogUrlPromise = 'https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Dark%20Skin%20Tone.png';
+  // const actionImageUrlPromise = 'https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Dark%20Skin%20Tone.png';
+  // const webagentUrlPromise = 'https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Dark%20Skin%20Tone.png';
+  // const chatbotUrlPromise = 'https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Dark%20Skin%20Tone.png';
+  // const resumeUrlPromise = 'https://drive.google.com/file/d/1a83eyUResWSZiJG-k_1HnkJD9HSekgc7/view?usp=drive_link';
+  // const paperUrlPromise = 'https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Medium-Dark%20Skin%20Tone.png';
 
 
   const [
