@@ -1,6 +1,6 @@
 # My personal Website
 
-<a href="https://ericwu.me">ericwu.me</a>
+<a href="https://wzh7076.top">wzh7076.top</a>
 
 [//]: # (![image]&#40;https://github.com/user-attachments/assets/38e4b0b4-b942-4e46-9248-4423e820bba9&#41;)
 
@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/itsEricWu/ericwu.me.git
+   git clone https://github.com/userWZ/blog.git
    ```
 
 2. Install dependencies:
@@ -59,11 +59,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Deployment
 
 This website is ready to be deployed on platforms like Vercel, Netlify, or any other platform that supports Next.js. Follow the deployment documentation of your chosen platform for specific instructions.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=itsEricWu/ericwu.me&type=Date)](https://star-history.com/#itsEricWu/ericwu.me&Date)
-
-## Contributing
-
-Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.

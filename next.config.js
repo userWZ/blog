@@ -1,11 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: [
-      "firebasestorage.googleapis.com",
-      "raw.githubusercontent.com",
-      "www.notion.so",
-    ],
+    remotePatterns: [{
+      protocol: 'https',
+      hostname: "www.notion.so",
+    },
+    {
+      protocol: 'https',
+      hostname: "firebasestorage.googleapis.com",
+    },
+    {
+      protocol: 'https',
+      hostname: "raw.githubusercontent.com",
+    }],
   },
 };
 
