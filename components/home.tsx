@@ -163,7 +163,7 @@ const Home = ({
           <IconCloud iconSlugs={icons} />
         </div>
         <div
-          key="smartSchedule" 
+          key="webAgent"
           className={cn(
             "bg-white dark:bg-darkBg dark:border-2 dark:border-knight cursor-grab active:cursor-grabbing rounded-[2rem] flex justify-center items-center overflow-hidden z-[1]",
             selectedCard[tabSelected]["webAgent"] ? "opacity-100" : "opacity-50"
@@ -172,7 +172,7 @@ const Home = ({
           <SmartSchedule SmartScheduleUrl={smartScheduleUrl} />
         </div>
         <div
-          key="usv"
+          key="chatBot"
           className={cn(
             "bg-white dark:bg-darkBg dark:border-2 dark:border-knight cursor-grab active:cursor-grabbing rounded-[2rem] flex justify-center items-center overflow-hidden z-[1]",
             selectedCard[tabSelected]["chatBot"] ? "opacity-100" : "opacity-50"

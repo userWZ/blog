@@ -26,7 +26,7 @@ const Paper = ({ paperUrl }: PaperProps) => {
             href="https://ojs.aaai.org/index.php/AAAI/article/view/29266"
           >
             <span className="text-sm md:text-medium text-nowrap hidden group-hover:block invisible group-hover:visible mr-1 animate-fade">
-              DT-VAEGAN
+              GHER
             </span>
             <GoArrowUpRight />
           </Link>
