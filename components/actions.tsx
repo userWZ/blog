@@ -24,10 +24,10 @@ const Actions = ({ photoUrl }: ActionsProps) => {
           <Link
             isExternal
             color="foreground"
-            href="https://action.simplegen.ai/"
+            href="#"
           >
             <span className="text-sm md:text-medium text-nowrap hidden group-hover:block invisible group-hover:visible mr-1 animate-fade">
-              GPT Actions
+              gher
             </span>
           </Link>
           <GoArrowUpRight />

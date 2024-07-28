@@ -14,8 +14,8 @@ import CardStack from "@/components/card-stack";
 import AnimatedEmoji from "@/components/animated-emoji";
 import IconCloud from "@/components/icon-cloud";
 import MapComponent from "@/components/map";
-import WebAgent from "@/components/webagent";
-import Chatbot from "@/components/chatbot";
+import SmartSchedule from "@/components/smart-schedule";
+import USV from "@/components/usv";
 import { MiniModel } from "@/components/mini";
 import Actions from "@/components/actions";
 import { layouts, selectedCard } from "@/config/layout";
@@ -27,10 +27,10 @@ interface HomeProps {
   photos: string[];
   avatarUrl: string;
   dogUrl: string;
-  actionImageUrl: string;
+  gherUrl: string;
   resumeUrl: string;
-  webagentUrl: string;
-  chatbotUrl: string;
+  smartScheduleUrl: string;
+  usvUrl: string;
   paperUrl: string;
 }
 
@@ -38,10 +38,10 @@ const Home = ({
   photos,
   avatarUrl,
   dogUrl,
-  actionImageUrl,
+  gherUrl,
   resumeUrl,
-  webagentUrl,
-  chatbotUrl,
+  smartScheduleUrl,
+  usvUrl,
   paperUrl,
 }: HomeProps) => {
   const width = useWindowWidth();
@@ -163,22 +163,22 @@ const Home = ({
           <IconCloud iconSlugs={icons} />
         </div>
         <div
-          key="webAgent"
+          key="smartSchedule" 
           className={cn(
             "bg-white dark:bg-darkBg dark:border-2 dark:border-knight cursor-grab active:cursor-grabbing rounded-[2rem] flex justify-center items-center overflow-hidden z-[1]",
             selectedCard[tabSelected]["webAgent"] ? "opacity-100" : "opacity-50"
           )}
         >
-          <WebAgent webAgentUrl={webagentUrl} />
+          <SmartSchedule SmartScheduleUrl={smartScheduleUrl} />
         </div>
         <div
-          key="chatBot"
+          key="usv"
           className={cn(
             "bg-white dark:bg-darkBg dark:border-2 dark:border-knight cursor-grab active:cursor-grabbing rounded-[2rem] flex justify-center items-center overflow-hidden z-[1]",
             selectedCard[tabSelected]["chatBot"] ? "opacity-100" : "opacity-50"
           )}
         >
-          <Chatbot chatbotUrl={chatbotUrl} />
+          <USV usvUrl={usvUrl} />
         </div>
         <div
           key="miniModel"
@@ -198,7 +198,7 @@ const Home = ({
             selectedCard[tabSelected]["actions"] ? "opacity-100" : "opacity-50"
           )}
         >
-          <Actions photoUrl={actionImageUrl} />
+          <Actions photoUrl={gherUrl} />
         </div>
         <div
           key="paper"
